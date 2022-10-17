@@ -13,26 +13,33 @@ module.exports = {
       "2xl": 32,
     },
     colors: {
-      black: "#aaa",
-      white: "#fff",
+      black: "#000000",
+      white: "#ffffff",
+      transparent: "transparent",
 
       //GRAY
-      "gray-900": "#121214",
-      "gray-800": "#202024",
-      "gray-400": "#7c7c8a",
-      "gray-200": "#c4c4cc",
-      "gray-100": "#e1e1e6",
+      gray: {
+        900: "#121214",
+        800: "#202024",
+        400: "#7c7c8a",
+        200: "#c4c4cc",
+        100: "#e1e1e6",
+      },
 
-      //CYAN
-      "cyan-500": "#81d8f7",
+      cyan: {
+        500: "#81d8f7",
+      },
 
-      //GREEN
-      "green-900": "#016a3d",
-      "green-500": "#04d361",
-      "green-200": "#3fff95",
+      green: {
+        900: "#016a3d",
+        500: "#04d361",
+        200: "#3fff95",
+      },
+ 
+      purple: {
+        500: "#633bbc",
+      }
 
-      //PURPLE
-      "purple-500": "#633bbc",
     },
     extend: {
       fontFamily: {

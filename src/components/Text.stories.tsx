@@ -10,6 +10,7 @@ export default {
 } as Meta<TextProps>
 
 export const Default : StoryObj<TextProps> = {}
+
 export const Small : StoryObj<TextProps> = {
     args: {
         children: 'Lorem ipsum',
